@@ -1,0 +1,13 @@
+# cook your dish here
+for i in range(int(input())):
+    d=int(input())
+    n=int(input())
+    if '0' in str(n):
+        print('Yes')
+        continue
+    elif '5' in str(n):
+        print("Yes")
+        continue
+    else:
+        print("No")
+    
