@@ -1,0 +1,12 @@
+# cook your dish here
+import math
+for i in range(int(input())):
+    a,b=map(int,input().split())
+    if a==1:
+        print(math.ceil(b/2))
+        continue
+    if a%2!=0:
+        print(math.ceil(a/2)*math.ceil(b/2))
+        continue
+    if a%2==0 :
+        print((a//2)*math.ceil(b/2))
