@@ -1,0 +1,12 @@
+# cook your dish here
+for i in range(int(input())):
+    n=int(input())
+    l=[]
+    for i in range(n):
+        l.append(int(input()))
+    s=list(set(l))
+    for i in s:
+        if l.count(i)%2!=0:
+            print(i)
+            break
+        
