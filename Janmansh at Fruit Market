@@ -1,0 +1,7 @@
+# cook your dish here
+for i in range(int(input())):
+    x,a,b,c=map(int,input().split())
+    z=[a,b,c]
+    z=sorted(z)
+  
+    print((x-1)*z[0]+z[1])
