@@ -1,0 +1,15 @@
+# cook your dish here
+for i in range(int(input())):
+    n=int(input())
+    N=[int(i) for i in input().split()]
+    N=sorted(N)
+    min=9999999
+
+    for i in range(n-1):
+        x=abs(N[i]-N[i+1])
+        if x<min:
+            min=x
+      
+    print(min)
+    
+    
