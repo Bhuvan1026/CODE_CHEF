@@ -1,0 +1,13 @@
+# cook your dish here
+for i in range(int(input())):
+    n,x=map(int,input().split())
+    a=[int(i) for i in input().split()]
+    c=[]
+    for i in range(n):
+        if a[i]<x:
+            c.append(i+1)
+    if c:
+        z=max(c)
+        print(z)
+    else:
+        print(0)
